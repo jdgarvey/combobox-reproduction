@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx serve .",
+    "start": "serve .",
     "test": "playwright test"
   },
   "keywords": [],
@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.44.1",
-    "@types/node": "^20.14.0"
+    "@types/node": "^20.14.0",
+    "serve": "^14.2.3"
   }
 }
